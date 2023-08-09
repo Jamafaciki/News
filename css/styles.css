@@ -1,0 +1,65 @@
+@font-face{
+    font-family: 'OpenSans';
+    src:local('OpenSans'),
+    url(../fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+body{
+    margin: 0;
+    font-family: 'OpenSans';
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80vh;
+    background: no-repeat url("../img/142166-rainy-night-city-live-wallpaper.jpg");
+    background-position: center;
+}
+
+header h1 {
+    color:rgb(255, 255, 255);
+    font-size: 80px;
+    letter-spacing: 80px;
+
+    text-shadow: 
+    0 0 10px aquamarine,
+    0 0 30px #fff,
+    0 0 50px aquamarine,
+    0 0 70px #fff,
+    0 0 90px aquamarine,
+    0 0 100px #fff,
+    0 0 300px aquamarine;
+
+}
+header span {
+    color: aquamarine;
+    font-size: 100px;
+}
+footer{
+    padding-top: 20px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+footer .links{
+margin-bottom: 50px;
+}
+footer .links > a {
+    color:gray;
+    padding: 0 25px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer .copyright{
+    color:gray;
+    padding: 0 25px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+ 
+}
