@@ -59,12 +59,12 @@ footer .links > a {
 
 footer .copyright{
     color:#fff;
-    padding: 0 25px;
+    font-family: 'Times New Roman', Times, serif;
+    padding-right: 20px;
     font-size: 10px;
     letter-spacing: 2px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    
 }
  .news{
     padding: 35px 0 20px;
@@ -102,8 +102,6 @@ footer .copyright{
     0 0 30px #fff,
     0 0 50px aquamarine;
  }
-
-
  article .article_meta a{
     color:lightblue;
     margin-bottom: 5px;
@@ -119,3 +117,14 @@ footer .copyright{
     color:#fff;
  }
 
+ #honest{
+    background-color: rgba(255,255,255,0.3);
+ }
+
+ #first::after{
+    content: " New!";
+    color:gold;
+    font-size: 60px;
+    font-style: italic;
+    text-shadow: none;
+ }
